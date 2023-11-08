@@ -113,9 +113,7 @@ public class EmployeeService {
 		department=sc.next();
 		System.out.println("Enter sal");
 		sc.nextDouble();
-		
 		Employee emp=new Employee(id, name, age, desiganation, department, sal);
-		
 		empset.add(emp);
 		System.out.println(emp);
 		System.out.println("Employtee addeed successsfully");
